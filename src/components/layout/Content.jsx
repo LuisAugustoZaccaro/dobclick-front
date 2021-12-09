@@ -6,6 +6,9 @@ import Register from '../pages/Register'
 import RecSenha from '../pages/RecSenha'
 import Graficos from '../pages/Graficos'
 import Estoque from '../pages/Estoque'
+import AdicionaProduto from '../pages/AdicionaProduto'
+import EditaProduto from '../pages/EditaProduto'
+
 
 const Content = props => (
     <main className="Content">
@@ -16,6 +19,8 @@ const Content = props => (
             <Route path="/recuperar-senha" element={<RecSenha />} />
             <Route path="/estoque" element={<Estoque />} />
             <Route path="/graficos" element={<Graficos />} />
+            <Route path="/estoque/adiciona_produto" element={<AdicionaProduto />} />
+            <Route path="/estoque/edita_produto" element={<EditaProduto />} />
         </Routes>
     </main>
 )

@@ -48,10 +48,7 @@
         border-left: 1px solid #805dca; }
 
 #content > .container {
-  display: flex;
-  max-width: 58.333333% !important;
-  margin-left: 80px;
-  margin-left: 2px;
+  max-width: 70% !important;
   padding: 0 16px !important; }
   #content > .container > .container {
     padding: 0;

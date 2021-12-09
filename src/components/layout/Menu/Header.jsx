@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import profile from '../../pages/local_assets/img/90x90.jpg'
 
 export default function Header() {
     return (
@@ -15,7 +15,7 @@ export default function Header() {
 
                     <li class="nav-item dropdown user-profile-dropdown  order-lg-0 order-1">
                         <a href="javascript:void(0);" class="nav-link dropdown-toggle user" id="userProfileDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img src="assets/img/90x90.jpg" alt="avatar" />
+                            <img src={profile} alt="avatar" />
                         </a>
                         <div class="dropdown-menu position-absolute" aria-labelledby="userProfileDropdown">
                             <div class="user-profile-section">
